@@ -1,0 +1,13 @@
+### Fetch All Comments
+GET http://localhost:5000/api/comment
+Content-Type: application/json
+
+### Create a New Comment
+POST http://localhost:5000/api/comment
+Content-Type: application/json
+
+{
+  "user_id": 5,
+  "post_id": 5,
+  "comment": "This is a Praveen comment."
+}
